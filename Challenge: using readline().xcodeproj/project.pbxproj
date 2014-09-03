@@ -10,6 +10,7 @@
 		F2FD973C199F39D9002D13CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FD973B199F39D9002D13CB /* Foundation.framework */; };
 		F2FD973F199F39D9002D13CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FD973E199F39D9002D13CB /* main.m */; };
 		F2FD9743199F39D9002D13CB /* Challenge__using_readline__.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2FD9742199F39D9002D13CB /* Challenge__using_readline__.1 */; };
+		F2FD974A199F50B2002D13CB /* libreadline.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FD9749199F50B2002D13CB /* libreadline.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		F2FD973E199F39D9002D13CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2FD9741199F39D9002D13CB /* Challenge: using readline()-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Challenge: using readline()-Prefix.pch"; sourceTree = "<group>"; };
 		F2FD9742199F39D9002D13CB /* Challenge__using_readline__.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Challenge__using_readline__.1; sourceTree = "<group>"; };
+		F2FD9749199F50B2002D13CB /* libreadline.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libreadline.dylib; path = usr/lib/libreadline.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FD974A199F50B2002D13CB /* libreadline.dylib in Frameworks */,
 				F2FD973C199F39D9002D13CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		F2FD973A199F39D9002D13CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2FD9749199F50B2002D13CB /* libreadline.dylib */,
 				F2FD973B199F39D9002D13CB /* Foundation.framework */,
 			);
 			name = Frameworks;
